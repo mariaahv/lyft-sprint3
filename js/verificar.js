@@ -16,6 +16,6 @@ $(document).ready(function() {
     event.preventDefault();
     $(this).css('background-color','fuchsia');
      alert("Tu codigo es: " + "LAB"+ Math.round(Math.random()*1000));
-
+     window.location.href = 'login.html';
   });
 });

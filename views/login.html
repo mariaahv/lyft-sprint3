@@ -1,34 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <title>login</title>
-  </head>
-  <body class="grad70 vh100">
-    <div class="slide-buttons container-flex-row">
-      <a href="register.html" type="button" class="btn btn-success">
-        <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
-      </a>
-    </div>
-    <form class="container-flex-column text-center">
-      <h1 class="title"> Are you?</h1>
-      <div class="form-group">
-        <label for="inputEmail">Email address</label>
-        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/icons/fonts/style.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<title>SingUp</title>
+</head>
+<body class="vh100">
+	<div class="slide-buttons container-flex-row">
+		<a href="register.html" type="button" class="btn btn-primary">
+			<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+		</a>
+	</div>
+	<form class="container-flex-column text-center">
+		<h1>lyft</h1>
+
+		<div class="form-group">
+			<div class="col-xs-2">
+				<span class="glyphicon glyphicon-menu-left"  ></span>
+			</div>
+			<div class="col-xs-12">
+        <div class="container">
+            	<h1 class="stiles">Sign up</h1>
+              <p class="stiles">Join now for free ride credit</p>
+              <div class="row omb_row-sm-offset-3">
+      			  <div class="col-xs-12 col-sm-6">
+      			   <form class="omb_loginForm" action="" autocomplete="off" method="POST">
+      					<div class="input-group">
+      						<span class="input-group-addon"><i class="icon-user"></i></span>
+      						<input type="text" class="form-control" name="username" placeholder="First name">
+      					</div>
+      					<span class="help-block"></span>
+      					<div class="input-group">
+      						<span class="input-group-addon"><i class="icon-mail2"></i></span>
+      						<input  type="text" class="form-control" name="email" placeholder="Email">
+      					</div>
+                <hr>
+      				</form>
+      			</div>
+          	</div>
+      		<div class="row omb_row-sm-offset-3">
+      			<div class="col-xs-12 col-sm-3">
+              <div class="col-xs-12 col-sm-3">
+                <p class="omb_forgotPwd">
+                  <input class="stiles" type="checkbox" value="check">
+                    <a href="#"> I gree to Lyft</a>
+                </p>
+              </div>
+      				<label >
+      				      <a href="#">Terms of Service</a>
+      				</label>
+      			</div>
+      		</div>
       </div>
-      <div class="form-group">
-        <label for="inputPassword">Password</label>
-        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
       </div>
-      <br>
-      <br>
-      <button type="submit" class="btn btn-success">Login</button>
-    </form>
-    <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
-    <script src="../js/login.js"></script>
-  </body>
+      <button type="submit" id="signup" class="btn btn-success col-xs-12"> SignUp </button>
+      </form>
+  <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="../js/login.js"></script>
+</body>
 </html>
