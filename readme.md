@@ -4,9 +4,9 @@
 
 - practicar y dominar Jquery
 - tener conceptos claros
-- poner en practica todos los temas anteriores estudiados com
-
-
+- poner en practica todos los temas anteriores estudiados como Bootstrap
+ grillas , responsive, icomoon,etc.
+ 
 
 ## Desarrollado con:
 

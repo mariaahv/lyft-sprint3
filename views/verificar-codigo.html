@@ -10,15 +10,33 @@
 	<link rel="stylesheet" href="../css/main.css">
 	<title>JqueryJojojo</title>
 </head>
-<body class="grad70 container-flex-column vh100">
+<body class=" container-flex-column vh100">
+	<div class="slide-buttons container-flex-row">
+		<a href="register.html" type="button" class="btn btn-primary">
+			<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+		</a>
+	</div>
+	<form class="container-flex-column text-center">
   <div class="container">
 	  <div class="row">
 		  <div class="col-xs-12">
-				<img src="assets/images/logo-white.png" class="img-responsive logo" alt="logo">
+				<div class=" container-flex-row">
+					<a>
+						<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+					</a>
+				</div>
+				<h2 class="stiles col-xs-12"><b>Verify Phone number</b></h2>
+				<h4 class="stiles ">Join now for the free ride credit</h4>
+				<h4 class="stiles col-xs-4">LAB</h4>
+				<input id="input-verificar"class="stiles col-xs-4" type="text" name="input" value="">
+				<p class="stiles stiles col-xs-12">Enter the code sent to +52</p>
+				<button id="btn-verificar"type="button" class="btn btn-default btn-lg col-xs-8">Resend code</button>
 			</div>
 		</div>
 	 </div>
+
+	 </form>
 	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
-	<script src="../js/app.js"></script>
+	<script src="../js/verificar.js"></script>
 </body>
 </html>
