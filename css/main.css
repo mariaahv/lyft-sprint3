@@ -135,3 +135,15 @@ height: 100vh;
   border: none;
   border-bottom: 1px solid gray;
 }
+
+#ok{
+  color: black;
+  outline: 1px solid red;
+  background: white;
+  width: 5em;
+  height: 5em;
+}
+
+.glyphicon-ok {
+  width: 10em;
+}
