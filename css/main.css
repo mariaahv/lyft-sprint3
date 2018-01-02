@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif !important;
+	color: #fff;
+}
+
+.container-flex-row {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.container-flex-column {
+  display: flex;
+	flex-direction:column;
+  justify-content: center;
+	padding: 2em;
+}
+
+.vh100 {
+	height: 100vh;
+}
+
+
+.grad10 {
+  background-image: url("../assets/images/street.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+	}
+
+.grad70 {
+  background: linear-gradient(rgb(83, 0, 96)5%,rgb(218, 10, 134));
+	}
+
+
+.grad{
+  background-image: url("../assets/images/street.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+
+
+  .logo{
+  margin-bottom: 40% ;
+  margin-left: 40%;
+  width: 25%;
+  }
+
+  .logo2{
+    box-sizing: border-box;
+    margin-left: 10%;
+    width: 80%;
+    height: 200px;
+  }
+
+  .button{
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    margin-left: 15%;
+  }
+
+
+.buttons-register {
+	padding: 2em;
+}
+
+.btn-success {
+	padding: 0.5em;
+	margin-bottom: 3em;
+}
+
+#icon{
+  margin-bottom: 20px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 5px;
+  margin-right: 20px;
+}
+#h3{
+  color: black;
+  display: inline;
+  margin-left: 50px;
+
+}
+.p{
+  color: black;
+}
+
+#p{
+    color: black;
+    text-align: center;
+}
+#input{
+  margin-left: 6px;
+  padding: 4px;
+  color: black;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin: 1px solid red;
+
+}
+
+.title {
+	padding: 0.5em;
+	margin-bottom: 1em;
+}
+
+#signup {
+ background: #E7E5E6;
+ border: gray;
+
+}
