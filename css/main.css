@@ -145,14 +145,18 @@ height: 100vh;
   border-bottom: 1px solid gray;
 }
 
-#ok{
-  color: black;
-  outline: 1px solid red;
-  background: white;
-  width: 5em;
-  height: 5em;
+.body-login{
+  background:#F6E8F6;
+}
+.body-verificar{
+  background:#E6F5F2;
 }
 
-.glyphicon-ok {
-  width: 10em;
+#ok{
+  margin-top: -150px;
+  color: black;
+  width: 15em;
+  height: 5em;
+  background-color: #E17DE1;
+
 }

@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="../css/main.css">
 	<title>SingUp</title>
 </head>
-<body class="vh100">
+<body class="vh100 body-login">
 	<div class="slide-buttons container-flex-row">
 		<a href="register.html" type="button" class="btn btn-primary">
 			<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
@@ -27,26 +27,26 @@
             	<h1 class="stiles">Sign up</h1>
               <p class="stiles">Join now for free ride credit</p>
               <div class="row omb_row-sm-offset-3">
-      			  <div class="col-xs-12 col-sm-6">
+      			  <div class="col-xs-12 col-sm-6 col-md-12">
       			   <form class="omb_loginForm" action="" autocomplete="off" method="POST">
-      					<div class="input-group">
-      						<span class="input-group-addon"><i class="icon-user"></i></span>
-      						<input type="text" class="form-control" name="username" placeholder="First name">
+      					<div class="input-group ">
+      						<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+      						<input id="name"type="text" class="form-control" name="username" placeholder="First name">
       					</div>
       					<span class="help-block"></span>
-      					<div class="input-group">
-      						<span class="input-group-addon"><i class="icon-mail2"></i></span>
-      						<input  type="text" class="form-control" name="email" placeholder="Email">
+      					<div class="input-group ">
+      						<span class="input-group-addon"><span class="glyphicon glyphicon-ok"></span></span>
+      						<input  id="email"type="text" class="form-control" name="email" placeholder="Email">
       					</div>
                 <hr>
       				</form>
       			</div>
           	</div>
       		<div class="row omb_row-sm-offset-3">
-      			<div class="col-xs-12 col-sm-3">
-              <div class="col-xs-12 col-sm-3">
-                <p class="omb_forgotPwd">
-                  <input class="stiles" type="checkbox" value="check">
+      			<div class="col-xs-12 col-sm-3 col-md-12">
+              <div class="col-xs-12 col-sm-3 ">
+                <p>
+                  <input id="check"class="stiles" type="checkbox" value="check">
                     <a href="#"> I gree to Lyft</a>
                 </p>
               </div>
@@ -57,7 +57,7 @@
       		</div>
       </div>
       </div>
-      <button type="submit" id="signup" class="btn btn-success col-xs-12"> SignUp </button>
+			<a href="close.html" type="submit" id="btnlogin" class="btn btn-success col-xs-12 disabled">signup</a>
       </form>
   <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="../js/login.js"></script>
