@@ -1,23 +1,28 @@
 $(document).ready(function() {
+ var $btnVerificar =$('#btn-verificar');
+ var $btnResend =$('#btn-resend');
+ var $inputVerificar =$('#inputVerificar');
 
-  // var $input = $('#input');
-  // $input.on('click', function() {
-  //
-  //   if ($(this).val().length >= 10) {
-  //       $('#btn-verificar').attr("disabled", false);
-  //       $(this).css('color','gray');
-  //   } else {
-  //       $('#btn-verificar').attr("disabled", true);
-  //   }
-  // });
+ $btnVerificar.on('click', verificaRandom);
+ $inputVerificar.on('keyup', verificaRandom);
+ $btnResend.on('click',resentRandom);
 
 
-//gerwnaciondel random
-  // 
-  // $('#btn-verificar').on('click', function(event) {
-  //   event.preventDefault();
-  //   $(this).css('background-color','fuchsia');
-  //    alert("Tu codigo es: " + "LAB"+ Math.round(Math.random()*1000));
-  //    window.location.href = 'login.html';
-  // });
+ function verificaRandom(){
+   var $text = $inputVerificar.val();
+   if( $text===localStorage.codeAleatorio){
+     $btnVerificar.removeClass('disabled');
+     $btnVerificar.addClass('botonverificar');
+
+   }
+   else{
+     $btnVerificar.addClass('disabled');
+     $btnVerificar.removeClass('botonverificar');
+   }
+ }
+  function resentRandom() {
+    var codigo = Math.floor((Math.random() * 1000) + 1);
+    alert('Tu codigo: ' + 'LAB ' + codigo);
+    localStorage.codeAleatorio = codigo;
+  }
 });

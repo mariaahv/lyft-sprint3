@@ -47,7 +47,9 @@ height: 100vh;
   height: 100vh;
 }
 
-
+ .botonverificar{
+   background: gray;
+ }
 
   .logo{
   margin-bottom: 40% ;
@@ -126,8 +128,14 @@ height: 100vh;
 }
 
 #btn-verificar {
- background: #E7E5E6;
+ background: black;
  border: gray;
+ margin: 30px;
+}
+
+#btn-resend {
+ background: #E7E5E6;
+ border: black;
  margin: 30px;
 }
 #input-verificar{
